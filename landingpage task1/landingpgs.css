@@ -1,0 +1,92 @@
+section{
+    min-height: 100vh;
+    background-image: url("https://i.pinimg.com/564x/1b/88/4f/1b884feae073713f3b52b6649f53eeeb.jpg");
+    background-size:contain;
+    background-position: center;
+    width: 250vh;
+}
+.container{
+    font-size: 10px;
+    font-style: oblique;
+    width: 100%;
+    margin:auto;
+}
+nav{
+    height: 100px;
+}
+nav h1{
+    float:left;
+    font-size:30px;
+    font-size: inline;
+    color:bisque;
+    padding-left: 20%;
+
+}
+nav ul{
+    float:right;
+    font-size: medium;
+    line-height: 50px;
+    padding-right: 70px;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    padding: 8px 25px;
+    
+}
+nav ul li a{
+    color:rgb(243, 240, 236);
+    text-decoration:solid ;
+    text-transform: uppercase;
+    border-radius: 1px;
+    padding: 7% ;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: rgb(67, 40, 6);
+    transition: 0.3s ease;
+}
+nav ul li.active{
+    background-color: rgb(211, 182, 85);
+}
+.article{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    transform:translate(2vh);
+}
+.article h1{
+    font-size: 50px;
+    color: rgb(231, 226, 218);
+    margin-right: 10px;
+    line-height: 0.6px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    padding-right: 50px;
+    top: 50px;
+} 
+.article p{
+    font-size:  22px;
+    color: bisque;
+    letter-spacing: 1.0px;
+    line-height: 1;
+    margin-right: 10px;
+    padding-right: 50px;
+}
+.article .btn{
+    color: saddlebrown;
+    padding: 6px 25px;
+    letter-spacing: 1.5px;
+    text-transform:uppercase;
+    text-decoration:double;
+    background-color: bisque;
+    margin-right: 75px;
+    font-size: 20px;
+
+}
+.article .btn:hover{
+    background-color: rgb(163, 119, 93);
+    transition: 0.4 ease;
+}
